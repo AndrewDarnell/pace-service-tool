@@ -1,0 +1,9 @@
+{
+  "name": "Pace Service Tool",
+  "short_name": "PST",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "description": "Pace Service Tool (PST) – prototype PWA for nameplate entry and Pace 5 telemetry commissioning."
+}
