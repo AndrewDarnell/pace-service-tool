@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>Pace Service Tool (PST)</title>
-    <link rel="icon" href="./assets/pace-logo-192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0d47a1" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicon (tab icon) -->
+    <link rel="icon" href="./assets/pace-logo-192.png" />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div id="root"></div>
@@ -20,7 +26,7 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <!-- Our React app -->
-    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="./app.js"></script>
 
     <!-- Register service worker -->
     <script>
