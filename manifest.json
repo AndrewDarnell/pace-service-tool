@@ -5,16 +5,11 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0d47a1",
-  "description": "Pace Service Tool (PST) – prototype PWA for nameplate entry and Pace 5 telemetry commissioning."
+  "description": "Pace Service Tool (PST) – prototype PWA for nameplate entry and Pace 5 telemetry commissioning.",
   "icons": [
     {
       "src": "assets/pace-logo-192.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/pace-logo-512.png",
-      "sizes": "512x512",
       "type": "image/png"
     }
   ]
