@@ -184,23 +184,23 @@ function App() {
 
   return (
     <div className="app">
-        <header className="app-header">
-          <div className="app-header-top">
-            <img
-              src="./assets/pace-logo.png"
-              alt="Pace"
-              className="pace-logo"
-            />
-            <div>
-              <div className="app-badge">Pace Service Tool · PWA Prototype</div>
-              <div className="app-title">PST – Cellular Commissioning</div>
-            </div>
+      <header className="app-header">
+        <div className="app-header-top">
+          <img
+            src="./assets/pace-logo.png"
+            alt="PaceControls"
+            className="pace-logo"
+          />
+          <div>
+            <div className="app-badge">Pace Service Tool · PWA Prototype</div>
+            <div className="app-title">PST – Cellular Commissioning</div>
           </div>
-          <div className="app-subtitle">
-            Nameplate data entry and telemetry test harness for Pace 5 cellular
-            commissioning. Data is stored locally in this browser only.
-          </div>
-        </header>
+        </div>
+        <div className="app-subtitle">
+          Nameplate data entry and telemetry test harness for Pace 5 cellular
+          commissioning. Data is stored locally in this browser only.
+        </div>
+      </header>
 
       <div className="tab-bar">
         <button
