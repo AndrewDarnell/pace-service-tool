@@ -187,7 +187,7 @@ function App() {
       <header className="app-header">
         <div className="app-header-top">
           <img
-            src="./assets/pace-logo.png"
+            src="./assets/pace-logo-192.png"
             alt="PaceControls"
             className="pace-logo"
           />
